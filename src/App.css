@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+:root{
+  --bcolor: #FD7527;
+  --pcolor: #C8CD3B;
+}
+
+.nav_main{
+  
+  text-align: right;
+  display: flex;
+  background-color:var(--pcolor);
+  justify-content:space-evenly;
+  padding: 15px;
+  margin-top:1px;
+  text-decoration: none;
+  filter: saturation(220%);
+  opacity: 0.99;
+  
+}
+a{
+  text-decoration: none;
+  
+  cursor: pointer;
+}
+
+.back_img{
+ display: flex;
+ flex-direction: column;
+ opacity: 0.4;
+ 
+ /* margin-top: -32px; */
+}
+.company_name{
+  /* margin-top: -500px; */
+  color:var(--pcolor);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17vh;
+  font-style: italic;
+  opacity: .99;
+  position: relative;
+  top: -600px;
+}
+
+.order_link{
+  
+ border: 2px solid var(--pcolor);
+ color: white;
+ opacity: .99;
+ padding: 10px;
+ font-size: 4vh;
+ background-color: var(--pcolor);
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-style: italic;
+ border-radius: 18px 0px 18px 0px;
+ position: relative;
+ top:-600px
+}
+.login_link{
+  border: 2px solid var(--bcolor);
+  color: white;
+  opacity: .99;
+  padding-left:10px;
+  padding-right: 10px;
+  /* padding-bottom: 1px; */
+  font-size: 3vh;
+  background-color: var(--bcolor);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  border-radius: 0px 10px 0px 10px;
+  position: relative;
+  top: -600px;
+}
+h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.image1{
+  position: relative;
+  width: 18%;
+  left: -200px;
+}
+.image2{
+  position: relative;
+  width: 18%;
+  left: 0px;
+}
+.image3{
+  position: relative;
+  width: 18%;
+  left:200px;
+}
+.image4{
+  position: relative;
+  width: 16%;
+  left: -130px;
+}
+.image5{
+  position: relative;
+  width: 16%;
+  left:150px;
+}
+.footer{
+  display: flex;
+  
+  justify-content: space-around;
+  bottom: 0;
+  left: 0;
+  padding:24px 0px;
+  background-color: var(--bcolor);
+}
